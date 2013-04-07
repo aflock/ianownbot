@@ -11,7 +11,7 @@ class Ianownbot
   def generate_tweet(force_caps = false)
     tweet = ""
     while tweet.length < 20 || tweet.length > 137
-      tweet = markov.generate_n_words rand(1..22)
+      tweet = markov.generate_n_words rand(22)
     end
 
     # wonder if we are moody or angry
