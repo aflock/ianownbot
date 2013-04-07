@@ -4,6 +4,7 @@ GEM
     dotenv (0.6.0)
     faraday (0.8.7)
       multipart-post (~> 1.1)
+    literate_randomizer (0.4.0)
     marky_markov (0.3.4)
       ox (~> 1.4)
     multi_json (1.7.2)
@@ -20,5 +21,6 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
+  literate_randomizer
   marky_markov
   twitter
