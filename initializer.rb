@@ -6,6 +6,7 @@ Dotenv.load
 
 require 'marky_markov'
 require 'twitter'
+
 require './ianownbot'
 
 Twitter.configure do |config|
@@ -14,3 +15,4 @@ Twitter.configure do |config|
   config.oauth_token = ENV['oauth_token']
   config.oauth_token_secret = ENV['oauth_token_secret']
 end
+
