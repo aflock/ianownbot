@@ -5,6 +5,7 @@ require 'dotenv'
 Dotenv.load
 
 require 'marky_markov'
+require 'literate_randomizer'
 require 'twitter'
 
 require './ianownbot'
