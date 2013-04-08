@@ -1,7 +1,3 @@
-require 'marky_markov'
-require 'pry'
-require 'literate_randomizer'
-
 class Ianownbot
   def initialize
     @dict = 'dictionaries/clean_tweets.txt'
@@ -45,4 +41,3 @@ class Ianownbot
     tweet
   end
 end
-binding.pry
